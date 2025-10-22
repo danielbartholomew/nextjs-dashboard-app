@@ -4,6 +4,7 @@ import {
   UserGroupIcon,
   HomeIcon,
   DocumentDuplicateIcon,
+  GlobeAltIcon,
 } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import Link from 'next/link';
@@ -19,7 +20,10 @@ const links = [
     icon: DocumentDuplicateIcon,
   },
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  { name: 'Soil', href: '/dashboard/soil', icon: GlobeAltIcon },
+  { name: 'Soil (new)', href: '/dashboard/soil-sidebar', icon: GlobeAltIcon },
 ];
+
 
 export default function NavLinks() {
 
