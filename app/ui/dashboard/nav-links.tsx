@@ -20,7 +20,7 @@ const links = [
     icon: DocumentDuplicateIcon,
   },
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
-  { name: 'Soil', href: '/dashboard/soil', icon: GlobeAltIcon },
+  { name: 'Soil', href: '/dashboard/soil-accordion', icon: GlobeAltIcon },
   { name: 'Soil (new)', href: '/dashboard/soil-sidebar', icon: GlobeAltIcon },
 ];
 
